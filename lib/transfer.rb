@@ -10,6 +10,7 @@ class Transfer
   end
   
   def valid?
+    if self.sender.ba
   end
   
   
