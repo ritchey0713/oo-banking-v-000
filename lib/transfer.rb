@@ -18,7 +18,7 @@ class Transfer
   end
   
   def execute_transaction
-    self.valid? && 
+    self.valid? && self.status == "pending"
     
   end
   
